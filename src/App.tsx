@@ -1,14 +1,14 @@
 import { useState } from 'react'
 
+import { HelmetProvider } from 'react-helmet-async';
+
 function App() {
 
   return (
-    <main className='py-10'>
-      <h1 className='font-bold text-3xl text-center'>
-        hello
-      </h1>
-    </main>
+    <div>
+            <h> hello</h>
+    </div>
   )
 }
 
-export default App
+export default App;
